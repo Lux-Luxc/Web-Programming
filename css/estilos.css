@@ -1,0 +1,17 @@
+body {background-image: url("../banner/back.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.marr {color: sienna; text-align: center;}
+p {text-align: justify;}
+.marro {color: peru; text-align: center;}
+.black {color: black;}
+h1 {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
