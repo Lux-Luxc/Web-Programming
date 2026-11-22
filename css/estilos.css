@@ -3,12 +3,21 @@ body {background-image: url("../banner/back.jpg");
   background-size: cover;
 }
 .marr {color: sienna; text-align: center; text-decoration: underline;}
-p {text-align: justify;}
 .marro {color: peru; text-align: center;}
 .black:hover {color: white; background-color: #69563A;}
-a {color: black;}
+a {color: black; background-color: white;
+}
 
+.foot {
+  max-width: 450px;
+  text-align: center;
+  color: white;
+  font-size: 1,5em;
+  background-image: url("../banner/cat.jpg");
+  background-attachment: fixed;
 
+}
+.map { width: 150px; height: 150px; border-radius: 20%;}
 
 .img {
   max-width: 100%;
@@ -18,8 +27,42 @@ a {color: black;}
 .hed {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
-.had{display: flex;          /* Coloca los elementos uno al lado del otro */
-align-items: center;    /* Centra el texto verticalmente en el medio de la imagen */
-gap: 20px;              /* Agrega espacio entre la imagen y el título */
+.had{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+.cokis {
+  display: flex;
+  justify-content: space-around;
+    background-image: url("../banner/choc.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+.coki {
+  display: flex;
+ align-items: center;
+justify-content: space-around;
+    background-image: url("../banner/choc.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+.img2 {
+  max-width: 600px;
+  height: 180px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+}
+.redes {
+  border-radius: 20%;
+  width: 80px;
+  height: 80px;
 }
